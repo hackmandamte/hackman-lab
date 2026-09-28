@@ -1,0 +1,14 @@
+[project]
+name = "darman"
+version = "0.1.0"
+description = "Darman autonomous AI agent runtime"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Darman Team" }]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["darman", "darman.core"]
